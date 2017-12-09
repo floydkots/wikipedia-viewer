@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>WIKIPEDIA VIEWER</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <header class="title text-center">
+    <h1><strong>Wikipedia Viewer</strong></h1>
+  </header>
+  <section id="searchArea" class="row">
+    <div class="col-md-6">
+      <div class="md-form">
+        <i class="fa fa-search prefix"></i>
+        <input type="search" id="search" class="form-control">
+        <label for="search">What would you like to search?</label>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <button id="go" class="btn btn-primary btn-lg btn-block" type="button" disabled>Go!</button>
+    </div>
+    <div class="col-md-3">
+      <a role="button" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="btn btn-primary btn-lg btn-block">Random Article</a>
+    </div>
+  </section>
+
+  <section id="results">
+    <div id="resultsGroup" class="list-group">
+      
+    </div>
+  </section>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
